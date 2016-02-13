@@ -1,9 +1,24 @@
 body {
   background-color: #5A637C;
-  margin-right: -15px;
+  margin-right: 0px;
 }
 
-.col-sm-12 {
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.navbar {
+  margin-bottom: 5px;
+  width: 100% auto;
+  margin-bottom: 0;
+}
+
+/* --------------------------- */
+/* -------ROW 1- Header------- */
+/* --------------------------- */
+
+.col-sm-12 { /*------ header stying -----*/
   font-family:'Poiret One', cursive;
   font-weight: 300;
   font-size: 35pt;
@@ -11,53 +26,172 @@ body {
   color: white;
   text-align: center;
   height: 100px;
+  padding-top: 15px;
   border: 10px solid white;
-  margin-top: -15px;
+
 }
-#box {
-  background: url("http://p1.pichost.me/i/40/1635176.jpg")
+
+/* -------------------- */
+/* -------ROW 2-------- */
+/* -------------------- */
+
+#box { /*------- background image -----*/
+  background: url(../img/row2-background.jpg)
 }
-.btn {
-  border: 5px solid #1F2637;
-}
-ul {
+
+ul { /*------ list-styling for buttons -----*/
   list-style-type: none;
 }
+
 ul > li {
   padding: 10px;
 }
-.btn {
+
+#btns { /*-------- button styling ------*/
+  border: 5px solid #1F2637;
   height: auto;
   width: 300px;
 }
+
+#box a:hover {
+  text-decoration: none;
+}
+
+/* --------------------------------------------- */
+/* Divider between Row2 & Row3 // Row 3 & Footer */
+/* --------------------------------------------- */
+
+#divider {
+  background-color: #5A637C;
+  height: 5px;
+}
+
+/* -------------------- */
+/* -------ROW 3-------- */
+/* -------------------- */
+
+#city1 { /* -------right box------ */
+  height:510px;
+  background-image: url(../img/row-3-background.jpg);
+}
+
+#row-three-center { /* ------- center jumbotron ------ */
+  padding: 0;
+}
+
 .jumbotron {
   background: white;
-  margin-top: 5px;
+  margin: 0 auto;
   width: 100%;
-  height: 350px;
-  background: url("http://img06.deviantart.net/5204/i/2008/187/0/7/splash_of_apple_by_edwin_by_iedwin24.jpg");
-  background-repeat: no-repeat;
+  height: 510px;
+  padding: 0;
+  background: url(../img/jumbotron-background3.jpg);
+  background-size: cover;
+  background-repeat: round;
 }
-#city1 {
-  margin-top: 5px;
-  height:350px;
-  background: url("http://www.publicdomainpictures.net/pictures/40000/nahled/black-and-white-background-1363001349OJ7.jpg");
-  margin-right: -15px;
+
+#lg-square {
+  padding-top: 0;
+  padding-left: 0;
+  padding:right: 0;
+  padding-bottom: 5px;
+  height: 510px;
 }
-#city2 {
-  padding-right: 15px;
-  margin-top: 5px;
-  height:350px;
-  background: url("http://www.publicdomainpictures.net/pictures/40000/nahled/black-and-white-background-1363001349OJ7.jpg");
-  background-repeat: repeat-x;
-  overflow: hidden;
-  margin-left: -15px;
+
+.row-well {
+  padding: 0;
 }
-#footer {
-  margin-top: -10px;
-  height: 150px;
-  background: url("http://farm9.static.flickr.com/8174/7891938966_51f46aa3c3.jpg")
+
+#r1 {
+  width: 100%;
+  padding-top: 5px;
 }
-.rows {
-  margin-bottom: -25px;
+
+#img-one {
+  height: 100px;
+  width: 100px;
+}
+
+#r2 {
+  width: 50%;
+  padding: 0;
+}
+
+#r3 {
+  width: 25%;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+}
+
+#r5 {
+  width: 100%;
+  padding-bottom: 0px;
+}
+
+#city2 {/* ------- left box ----- */
+  height: 510px;
+  background-image: url(../img/row-3-background.jpg);
+  /*background-repeat: space;*/
+}
+
+/* ---------------------------- */
+/* ------ROW 4 - footer-------- */
+/* ---------------------------- */
+
+.footy {
+  height: 100px;
+  margin-left: 0;
+  border: none;
+  padding-left: 0;
+}
+
+#my-footer {
+  font-family:'Poiret One', cursive;
+  font-weight: 200;
+  font-size: 20pt;
+  color: white;
+  text-align: center;
+  height: 100px;
+  background-color: #1A2735;
+}
+
+/* ---------------------------- */
+/* ---------PAGE TWO----------- */
+/* ---------------------------- */
+
+body {
+  background-color: background-color: #5A637C;
+}
+
+h3 {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+p {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+
+.stripes {
+  background-image: url(../img/row2-background.jpg);
+  background-repeat: round;
+  opacity: 0.89;
+}
+
+.summary {
+  font-weight: 400;
+}
+
+#working-page {
+  padding: 0;
+}
+
+#slip {
+margin-top: 5px;
+margin-bottom: 5px;
 }
